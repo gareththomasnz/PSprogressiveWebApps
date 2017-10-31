@@ -12,9 +12,9 @@ resources/fetch/fetch.js
 resources/localforage/localforage.min.js
 resources/localforage/localforage-getitems.js
 resources/localforage/localforage-setitems.js
-resources/material-design-lite/material.min.js
-resources/material-design-lite/material.min.js.map
-resources/material-design-lite/material.red-indigo.min.css
+resources/mdl/material.min.js
+resources/mdl/material.min.js.map
+resources/mdl/material.red-indigo.min.css
 resources/systemjs/system.js
 resources/systemjs/system-polyfills.js
 resources/systemjs/system-polyfills.js.map
