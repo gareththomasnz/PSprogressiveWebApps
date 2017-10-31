@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 
-<html>
+<html manifest="local.appcache">
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="x-ua-compatible" content="ie-edge">
-	<meta name="description" content="the best car deals on the web">
-	<title>Car deals</title>
-	<link rel="stylesheet" href="resources/mdl/material.min.css">
-	<link rel="manifest" href="/manifest.json">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="The best car deals on the web!">
+	<link rel="manifest" href="manifest.json">
+	<title>Car Deals</title>
+	<link rel="stylesheet" href="resources/mdl/material.red-indigo.min.css" />
 	<script src="resources/mdl/material.min.js"></script>
+
+	<!-- App Name -->
+	<meta name="apple-mobile-web-app-title" content="Car Deals">
+	<meta name="application-name" content="Car Deals">
 
 	<!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
 	<style>
@@ -74,8 +78,7 @@
 		</main>
 	</div>
 	<script id="car-card" type="text/template">
-		<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--6dp" style="background-image: url('{{image}}')"
-             onclick="pageEvents.loadCarPage('{{details-id}}')">
+		<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--6dp" style="background-image: url('{{image}}')" onclick="pageEvents.loadCarPage('{{details-id}}')">
 			<div class="mdl-card__title">
 				<span class="mdl-card__title-text">{{title}} (${{price}})</span>
 			</div>
